@@ -1,18 +1,17 @@
 name: sunmi_print_ticket
 description: This is a printer product written by cudev
-homepage: https://github.com/hueht21/SunmiPrintEasyTicket
+homepage: https://github.com/HVLoc/SunmiPrintEasyTicket
 
-
-version: 1.0.7
+version: 1.0.8
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
-  flutter: ">=1.12.0"
+  # flutter: "3.10.5"
 
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.18.0
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -20,10 +19,8 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
   plugin:
     platforms:
       android:
         package: com.example.easy_ticket_b08
         pluginClass: SunmiPrinterPlugin
-
